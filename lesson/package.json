@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "webpack"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "file-loader": "^4.2.0",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9"
   }
