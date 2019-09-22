@@ -18,4 +18,14 @@ npx webpack --config webpackconfig.js
 
 cnpm i file-loader -D
 
-loader是一个打包的方案
+loader是一个打包的方案:webpack不能识别非js结尾的后缀文件，通过laoder让webpack识别出来
+module: {
+    rules: [
+      {
+        test: /.jpg$/,
+        use: {
+          loader: "file-loader"
+        }
+      }
+    ]
+  }

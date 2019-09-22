@@ -97,47 +97,15 @@ eval("module.exports = __webpack_require__.p + \"3f537740bf69dbc298c8ad95708708b
 
 /***/ }),
 
-/***/ "./src/content.js":
-/*!************************!*\
-  !*** ./src/content.js ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("function Content(){\r\n    var dom = document.getElementById(\"root\");\r\n    var content=document.createElement('div')\r\n    content.innerText='content';\r\n    dom.append(content)\r\n}\r\n\r\n// export default Content;\r\nmodule.exports=Content;\r\n\n\n//# sourceURL=webpack:///./src/content.js?");
-
-/***/ }),
-
-/***/ "./src/header.js":
-/*!***********************!*\
-  !*** ./src/header.js ***!
-  \***********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("function Header() {\r\n  var dom = document.getElementById(\"root\");\r\n  var header = document.createElement(\"div\");\r\n  header.innerText = \"header\";\r\n  dom.append(header);\r\n}\r\n// export default Header;\r\n\r\nmodule.exports=Header;\r\n\n\n//# sourceURL=webpack:///./src/header.js?");
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("//ES Module模块引入方式\r\n//CommonJS模块引入规范\r\n//CMD\r\n//ADM\r\n//webpack 模块打包工具\r\n// import Header from \"./header.js\";\r\n// import Sidebar from \"./sidebar.js\";\r\n// import Content from \"./content.js\";\r\n\r\nvar Header = __webpack_require__(/*! ./header.js */ \"./src/header.js\");\r\nvar Sidebar = __webpack_require__(/*! ./sidebar.js */ \"./src/sidebar.js\");\r\nvar Content = __webpack_require__(/*! ./content.js */ \"./src/content.js\");\r\nvar avatar=__webpack_require__(/*! ./avatar.jpg */ \"./src/avatar.jpg\");\r\nconsole.log(avatar);\r\nnew Header();\r\nnew Sidebar();\r\nnew Content();\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/sidebar.js":
-/*!************************!*\
-  !*** ./src/sidebar.js ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("function Sidebar() {\r\n  var dom = document.getElementById(\"root\");\r\n  var sidebar = document.createElement(\"div\");\r\n  sidebar.innerText = \"sidebar\";\r\n  dom.append(sidebar);\r\n}\r\n// export default Sidebar;\r\nmodule.exports = Sidebar;\r\n\n\n//# sourceURL=webpack:///./src/sidebar.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _avatar_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./avatar.jpg */ \"./src/avatar.jpg\");\n/* harmony import */ var _avatar_jpg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_avatar_jpg__WEBPACK_IMPORTED_MODULE_0__);\n\r\n// var avatar = require(\"./avatar.jpg\");\r\n\r\nvar img = new Image();\r\nimg.src = _avatar_jpg__WEBPACK_IMPORTED_MODULE_0___default.a;\r\n\r\ndocument.getElementById('root');\r\nroot.append(img);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
