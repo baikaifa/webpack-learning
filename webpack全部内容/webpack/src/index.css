@@ -1,0 +1,10 @@
+@import './a.css';
+body{
+    background: red;
+}
+div{
+    width: 1000px;
+    height: 1000px;
+    background: url("./logo.png");
+
+}

@@ -1,0 +1,6 @@
+webpack安装
+安装本地的webpack
+webpack webpack-cli -D上线的时候不需要打包
+支持js模块化
+
+npx webpack --config webpack.config.my.js

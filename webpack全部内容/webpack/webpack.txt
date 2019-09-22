@@ -1,0 +1,8 @@
+安装webpack
+yarn init -y
+yarn add webpack webpack-cli -D //本地依赖
+启动webpack
+npx webpack
+
+手动配置webpack
+默认配置文件的名字 webpack.config.js
