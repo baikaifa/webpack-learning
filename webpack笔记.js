@@ -29,3 +29,9 @@ module: {
       }
     ]
   }
+  cnpm i url-loader -D
+  cnpm i style-loader css-loader -D
+  cnpm i sass-loader node-sass -D
+  loader的顺序从下到上，从右到左
+  cnpm i postcss-loader -D
+  cnpm i autoprefixer -D

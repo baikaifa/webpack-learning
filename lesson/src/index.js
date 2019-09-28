@@ -1,8 +1,9 @@
 import avatar from "./avatar.jpg";
-// var avatar = require("./avatar.jpg");
+import './index.scss';
 
 var img = new Image();
 img.src = avatar;
+img.classList.add('avatar');
 
 document.getElementById('root');
 root.append(img);
