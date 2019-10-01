@@ -24,7 +24,7 @@ module.exports = {
           {
             loader: "css-loader",
             options: {
-              importLoaders: 2,
+              importLoaders: 2,//通过import引入的内容也要走两个loader
               modules:true
             }
           },
