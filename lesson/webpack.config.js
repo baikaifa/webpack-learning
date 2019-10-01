@@ -24,10 +24,10 @@ module.exports = {
           {
             loader: "css-loader",
             options: {
-              importLoaders: 2
+              importLoaders: 2,
+              modules:true
             }
           },
-          "css-loader",
           "sass-loader",
           "postcss-loader"
         ]
